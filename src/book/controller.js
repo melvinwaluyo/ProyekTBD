@@ -176,7 +176,7 @@ const addMultipleBooks = (req, res) => {
           });
       });
     });
-  };
+};
 
 // Add Multiple Orders with Transaction
 const addMultipleOrders = (req, res) => {
@@ -219,7 +219,7 @@ const addMultipleOrders = (req, res) => {
                 });
         });
     });
-} 
+}; 
 
 module.exports = {
     getBooks,
@@ -232,5 +232,5 @@ module.exports = {
     addOrder,
     removeOrder,
     addMultipleBooks,
-    addMultipleOrders
+    addMultipleOrders,
 };
