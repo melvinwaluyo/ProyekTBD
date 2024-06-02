@@ -1,5 +1,5 @@
 // Get all books
-const getBooks = 'SELECT * FROM "Book"';
+const getBooks = 'SELECT * FROM "Book" ORDER BY "Id" ASC';
 
 // Get book by id
 const getBooksById = 'SELECT * FROM "Book" WHERE "Id" = $1';
